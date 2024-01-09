@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aboutMe{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, white,rgb(28, 137, 170));
+    background-size: 100%;
+}
+.nav{
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+}
+.nav ul li a:hover{
+    text-decoration: line-through;
+}
+.img-holder{
+    position: absolute;
+    right: 100px;
+    width: 40%;
+    height: 100vh;
+}
+.img-holder img{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+   
+}
+span{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+ul{
+    list-style-type: none;
+}
+.name{
+    position: absolute;
+    transform: rotate(-90deg);
+    right: 50px;
+    bottom: 0;
+    top: 0;
+}
+.name p{
+    font-size: 98px;
+    font-weight: 200;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+}

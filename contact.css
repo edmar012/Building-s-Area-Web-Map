@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, white,rgb(28, 137, 170));
+    background-size: cover;
+}
+.nav{
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+    z-index: 2;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+}
+.nav ul li a:hover{
+    text-decoration: line-through;
+}
+.contact-holder{
+    position: relative;
+    height: 70vh;
+    width: 50%;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+.contact-holder .send{
+    position: absolute;
+    width: 25%;
+    top: 100px;
+    left: 10px;
+    font-size: 20px;
+}
+.contact-holder .text{
+    position: absolute;
+    bottom: -10px;
+    padding: 20px;
+    width: 25%;
+}
+.contact-holder .send input{
+    font-size: 30px;
+    border: none;
+    color: white;
+    border-bottom: 1px solid black;
+    background: none;
+    height: 30px;
+    width: auto;
+}
+.contact-holder .send input:last-child{
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+.title{
+    position: relative;
+}
+.title p{
+    text-align: center;
+    font-size: 100px;
+}
